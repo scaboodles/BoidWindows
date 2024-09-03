@@ -11,6 +11,12 @@
 		5A87C46A2C8695EC0091B151 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87C4692C8695EC0091B151 /* ViewController.swift */; };
 		5A87C46C2C8695ED0091B151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A87C46B2C8695ED0091B151 /* Assets.xcassets */; };
 		5A87C46F2C8695ED0091B151 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5A87C46E2C8695ED0091B151 /* Base */; };
+		5A87C47B2C86961F0091B151 /* HiveMind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87C4762C86961F0091B151 /* HiveMind.swift */; };
+		5A87C47C2C86961F0091B151 /* Vector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87C4772C86961F0091B151 /* Vector2.swift */; };
+		5A87C47D2C86961F0091B151 /* BoidSaverTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87C4782C86961F0091B151 /* BoidSaverTester.swift */; };
+		5A87C47E2C86961F0091B151 /* BoidWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87C4792C86961F0091B151 /* BoidWindowView.swift */; };
+		5A87C47F2C86961F0091B151 /* BoidThink.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5A87C47A2C86961F0091B151 /* BoidThink.metal */; };
+		5A87C4812C8696280091B151 /* Boid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A87C4802C8696280091B151 /* Boid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		5A87C46B2C8695ED0091B151 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A87C46E2C8695ED0091B151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A87C4702C8695ED0091B151 /* BoidWindows.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoidWindows.entitlements; sourceTree = "<group>"; };
+		5A87C4762C86961F0091B151 /* HiveMind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiveMind.swift; sourceTree = "<group>"; };
+		5A87C4772C86961F0091B151 /* Vector2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector2.swift; sourceTree = "<group>"; };
+		5A87C4782C86961F0091B151 /* BoidSaverTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoidSaverTester.swift; sourceTree = "<group>"; };
+		5A87C4792C86961F0091B151 /* BoidWindowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoidWindowView.swift; sourceTree = "<group>"; };
+		5A87C47A2C86961F0091B151 /* BoidThink.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = BoidThink.metal; sourceTree = "<group>"; };
+		5A87C4802C8696280091B151 /* Boid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,12 @@
 		5A87C4662C8695EC0091B151 /* BoidWindows */ = {
 			isa = PBXGroup;
 			children = (
+				5A87C4802C8696280091B151 /* Boid.swift */,
+				5A87C4782C86961F0091B151 /* BoidSaverTester.swift */,
+				5A87C4792C86961F0091B151 /* BoidWindowView.swift */,
+				5A87C47A2C86961F0091B151 /* BoidThink.metal */,
+				5A87C4762C86961F0091B151 /* HiveMind.swift */,
+				5A87C4772C86961F0091B151 /* Vector2.swift */,
 				5A87C4672C8695EC0091B151 /* AppDelegate.swift */,
 				5A87C4692C8695EC0091B151 /* ViewController.swift */,
 				5A87C46B2C8695ED0091B151 /* Assets.xcassets */,
@@ -131,8 +149,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A87C47D2C86961F0091B151 /* BoidSaverTester.swift in Sources */,
 				5A87C46A2C8695EC0091B151 /* ViewController.swift in Sources */,
+				5A87C47E2C86961F0091B151 /* BoidWindowView.swift in Sources */,
+				5A87C4812C8696280091B151 /* Boid.swift in Sources */,
+				5A87C47F2C86961F0091B151 /* BoidThink.metal in Sources */,
+				5A87C47C2C86961F0091B151 /* Vector2.swift in Sources */,
 				5A87C4682C8695EC0091B151 /* AppDelegate.swift in Sources */,
+				5A87C47B2C86961F0091B151 /* HiveMind.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
